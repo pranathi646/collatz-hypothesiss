@@ -15,19 +15,5 @@ Hint: the most important part of the problem is how to transform Collatz's idea 
 
 Test your code using the data we've provided. """
 
-Solution:
 
-c0not1 = True;
-c0 = int(input('Enter a pos number except 1: '))
-while c0not1:
-    if c0%2==0:
-        c0 = c0/2
-        print(c0)
-    elif c0%2==1:
-        c0 = 3*c0 + 1
-        print(c0)
-         if c0==1:
-        c0not1 = False
-    else:
-        c0not1 = True
         
